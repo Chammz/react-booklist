@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Books from './components/Books.js';
+import Book from './components/Book.js';
 import './css/App.css'
 
 
@@ -14,7 +14,14 @@ class App extends Component {
         </div>
           <h2>My Books</h2>
           <ul>
-            <Books />
+            <Book
+              title="Treasure Island"
+              author="Robert Louis Stevenson"
+            />
+            <Book
+              title="The Sun Also Rises"
+              author="Ernest Hemingway"
+            />
           </ul>
       </div>
     );
